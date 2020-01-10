@@ -7,7 +7,7 @@
             "email": "neetu.aipl@gmail.com"
         }
     ],
-    "minimum-stability": "dev",
+    "minimum-stability": "5.2",
     "require": {
         "laravelcollective/html": "^5.5"
     },
