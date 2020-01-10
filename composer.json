@@ -1,0 +1,25 @@
+{
+    "name": "prioticket/authentication",
+    "description": "This is used for authentication of user in prioticket platform",
+    "authors": [
+        {
+            "name": "Neetu Mittal",
+            "email": "neetu.aipl@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "laravelcollective/html": "^5.5"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "prioticket\\authentication\\PrioAuthServiceProvider"
+            ]
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "PrioTicket\\Authentication\\": "src/"
+        }
+    }}
