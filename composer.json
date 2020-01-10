@@ -1,6 +1,7 @@
 {
     "name": "prioticket/authentication",
     "description": "This is used for authentication of user in prioticket platform",
+    "license": "MIT",
     "authors": [
         {
             "name": "Neetu Mittal",
@@ -8,6 +9,7 @@
         }
     ],
     "minimum-stability": "dev",
+    "prefer-stable": true,
     "require": {
         "laravelcollective/html": "^5.5"
     },
